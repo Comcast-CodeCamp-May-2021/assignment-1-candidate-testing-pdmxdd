@@ -51,7 +51,7 @@ function gradeQuiz(candidateAnswers) {
         }
     }
 
-    return grade;
+    return grade * 100;
 }
 
 function runProgram() {
@@ -87,7 +87,7 @@ Correct Answer: ${correctAnswers[i]}
     }
 
     output += `
->>> Overall Grade: ${grade * 100}% (${(grade * 100) / 20} of ${5} responses correct) <<<
+>>> Overall Grade: ${grade}% (${(grade) / 20} of ${5} responses correct) <<<
 >>> Status: ${status} <<<
 `;
 
