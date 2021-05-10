@@ -5,7 +5,7 @@ const input = require('readline-sync');
 // DONE 1.1a: Define candidateName // 
 // let candidateName = input.question("What is your name?\n");
 // refactored so askForName() handles the input
-let candidateName;
+let candidateName = "";
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 let question = "Who was the first American woman in space? ";
 let correctAnswer = "Sally Ride";
@@ -46,7 +46,7 @@ function gradeQuiz(candidateAnswers) {
     let grade = 0;
 
     for(let i = 0; i < candidateAnswers.length; i++) {
-        if(candidateAnswers[i] === correctAnswers[i]) {
+        if(candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()) {
             grade += .2;
         }
     }
