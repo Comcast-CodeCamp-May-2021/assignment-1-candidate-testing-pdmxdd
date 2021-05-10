@@ -51,7 +51,7 @@ function gradeQuiz(candidateAnswers) {
         }
     }
 
-    return grade * 100;
+    return Math.round(grade * 100);
 }
 
 function runProgram() {
