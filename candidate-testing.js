@@ -7,7 +7,7 @@ const input = require('readline-sync');
 // refactored so askForName() handles the input
 let candidateName = "";
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
-let question = "Who was the first American woman in space? ";
+// let question = "Who was the first American woman in space? ";
 let correctAnswer = "Sally Ride";
 let candidateAnswer = "";
 let questions = [
