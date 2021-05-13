@@ -5,6 +5,7 @@ const input = require('readline-sync');
 // DONE 1.1a: Define candidateName // 
 // let candidateName = input.question("What is your name?\n");
 // refactored so askForName() handles the input
+// random change
 let candidateName = "";
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 let question = "Who was the rican woman in space? ";
